@@ -1,0 +1,36 @@
+[app/ui]
+version = 8.0.2
+modtime = 1607464653.157445000
+
+[app/launcher]
+version = 8.0.2
+modtime = 1607464653.159042000
+
+[indexes/hibp_passwords]
+owner = cf
+version = 8.0.2
+modtime = 1607552515.184730000
+
+[props/password]
+owner = cf
+version = 8.0.2
+modtime = 1607552640.206174000
+
+[inputs/monitor%3A%2F%2F%2FUsers%2Fcf%2FDownloads%2Fpwned-passwords-ntlm-ordered-by-hash-v7.txt]
+owner = cf
+version = 8.0.2
+modtime = 1607552664.161761000
+
+[datamodels/NTLM]
+access = read : [ * ], write : [ * ]
+export = none
+owner = cf
+version = 8.0.2
+modtime = 1607602585.952796000
+
+[models/NTLM]
+access = read : [ * ], write : [ * ]
+export = none
+owner = cf
+version = 8.0.2
+modtime = 1607586330.919455000
