@@ -1,6 +1,6 @@
 {
-    "modelName": "NTLM",
-    "displayName": "NTLM",
+    "modelName": "SHA1",
+    "displayName": "SHA1",
     "description": "",
     "objectSummary": {
         "Event-Based": 1,
@@ -9,14 +9,14 @@
     },
     "objects": [
         {
-            "objectName": "NT_Hashes",
-            "displayName": "NT Hashes",
+            "objectName": "Hashes",
+            "displayName": "Hashes",
             "parentName": "BaseEvent",
             "comment": "",
             "fields": [
                 {
                     "fieldName": "prefix",
-                    "owner": "NT_Hashes",
+                    "owner": "Hashes",
                     "type": "string",
                     "fieldSearch": "",
                     "required": false,
@@ -79,13 +79,13 @@
             "constraints": [
                 {
                     "search": "index=hibp_passwords",
-                    "owner": "NT_Hashes"
+                    "owner": "Hashes"
                 }
             ],
-            "lineage": "NT_Hashes"
+            "lineage": "Hashes"
         }
     ],
     "objectNameList": [
-        "NT_Hashes"
+        "Hashes"
     ]
 }
